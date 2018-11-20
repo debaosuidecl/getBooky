@@ -1,0 +1,49 @@
+.bookDetail{
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 1px 2px 9px #ccc ;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.bookDetail h2, .bookDetail h3, .bookDetail h1{
+    color: dodgerblue;
+}
+
+.bookDetail h2{
+    font-size: 15px;
+}
+
+.bookDetail h3{
+        font-size: 15px;
+}
+.bookDetail p{
+    text-align: justify;
+}
+.bookDetail > .author{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.bookDetail .author> h3{
+    display: inline;
+    margin-right: 10px;
+
+}
+@media (min-width: 750px) {
+    .bookDetail{
+        padding: 20px;
+        margin: 30px;
+        width: 300px;
+        box-shadow: 1px 2px 9px #ccc ;
+        text-align: center;
+
+    }
+    .bookDetail h2{
+        font-size: 15px;
+    }
+
+    .bookDetail h3{
+        font-size: 15px;
+    }
+}
